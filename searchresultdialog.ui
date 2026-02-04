@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchResultDialog</class>
+ <widget class="QDialog" name="SearchResultDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1340</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1441</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(255, 154, 133, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+   <widget class="QWidget" name="widget_11" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1461</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(212, 75, 7);
+color:#ffffff;</string>
+    </property>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>0</y>
+       <width>121</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>nedlogo.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>30</y>
+       <width>721</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 18pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>NED UNIVERSITY OF ENGINEERING &amp; TECHNOLOGY</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>60</y>
+       <width>191</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;Segoe UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QDialogButtonBox" name="buttonBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>730</y>
+      <width>211</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::StandardButton::Cancel|QDialogButtonBox::StandardButton::Ok</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_12" native="true">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>130</y>
+      <width>871</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(203, 19, 13);</string>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>851</width>
+       <height>561</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+gridline-color: rgb(255, 255, 255);
+border-right-color: rgb(186, 51, 24);
+border-top-color: rgb(186, 51, 24);
+border-bottom-color: rgb(186, 51, 24);
+border-left-color: rgb(186, 51, 24);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>20</y>
+        <width>381</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 600 18pt &quot;Segoe UI&quot; underline;</string>
+      </property>
+      <property name="text">
+       <string> ALUMNI INFORMATION </string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>200</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(213, 213, 213);
+</string>
+      </property>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(213, 213, 213);
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Field :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fieldlineEdit">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>290</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(213, 213, 213);
+</string>
+      </property>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(213, 213, 213);
+font: 600 9pt &quot;Segoe UI&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>LinkendIn Profile :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="linkedInlineEdit">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>380</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(213, 213, 213);
+</string>
+      </property>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(213, 213, 213);
+font: 600 9pt &quot;Segoe UI&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Graduation Year : </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="yearlineEdit">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>470</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(213, 213, 213);
+</string>
+      </property>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(213, 213, 213);
+font: 600 9pt &quot;Segoe UI&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Degree :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>110</y>
+        <width>491</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(213, 213, 213);
+</string>
+      </property>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>22</x>
+         <y>20</y>
+         <width>71</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(213, 213, 213);
+font: 600 9pt &quot;Segoe UI&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Name: </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="namelineEdit">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>341</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+
+background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
